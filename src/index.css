@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+button {
+  border: none;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 50px;
+  width: 100px;
+  background-color: var(--secondColor);
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(190deg, var(--mainColor), var(--secondColor));
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+  background: var(--secondColor);
+  border-radius: 40px;
+}
+
+/* Handel */
+::-webkit-scrollbar-thumb {
+  background: #84abff;
+  border-radius: 20px;
+}
+
+:root {
+
+  --mainColor: #490f86;
+  --secondColor: #5549b9;
+}
+
+h1 {
+  font-family: 'Bungee', cursive;
+}

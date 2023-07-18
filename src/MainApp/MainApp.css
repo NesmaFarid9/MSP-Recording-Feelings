@@ -1,0 +1,129 @@
+/*start header*/
+header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 30px;
+
+}
+
+header .logo img {
+    width: 70px;
+}
+
+header h1 {
+    font-size: 50px;
+
+}
+
+/*end header*/
+
+/* start main style */
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* end main style */
+input[type="radio"]{
+    display: none;
+}
+input[type="radio"]:checked + label > img{
+   transform: scale(1.3);
+}
+
+/*start input*/
+main section input {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    width: 500px;
+    background-color: var(--secondColor);
+
+}
+
+main section input:focus {
+    outline: none;
+}
+
+/*end input*/
+
+
+/*start Emoji section */
+main section p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+
+}
+
+main section img {
+    width: 60px;
+
+}
+
+main section .Emoji {
+    display: flex;
+    gap: 16px;
+}
+
+
+/*end Emoji section */
+
+
+/*start button style*/
+
+main section .section {
+    display: flex;
+    align-items: flex-end;
+    width: 500px;
+    justify-content: space-between;
+}
+
+main section .section button {
+    border: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    width: 100px;
+    background-color: var(--secondColor);
+
+}
+
+
+/*end button style*/
+
+
+/* start main image */
+
+main>img {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+/* end main image */
+
+/* start list section */
+
+main section:nth-of-type(2) {
+    border: 2px solid;
+    border-radius: 50px;
+    padding: 30px;
+    width: 500px;
+    border-color: var(--secondColor);
+
+}
+
+main section:nth-of-type(2) div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+/* end list section */
